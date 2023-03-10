@@ -1,0 +1,59 @@
+.main-banner{
+    background-image: url("https://www.crbgroup.com/wp-content/uploads/2020/04/Lab-Site-Selection-2.jpg");
+    height: 45vh;
+    width: 100%;
+    background-origin: border-box;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 25px 25px;
+    position: relative;
+
+
+}
+.main-banner:before {
+    content: '';
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    background-color: black;
+    border-radius: 0 0 25px 25px;
+    opacity: 0.6;
+ }
+.day-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 0.5rem 0.4rem;
+    border-radius: 25px;
+}
+.main-news-container{
+    overflow: auto;
+    width:100vw;
+}
+.main-news-item{
+    flex:  0 0 auto;
+    width: 60vw;
+    margin: 0 1rem;
+}
+.main-news-image{
+    height: 20vh;
+    width: 100%;
+}
+.main-news-image img{
+    border-radius: 10px;
+    flex: 0 0 auto;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+::-webkit-scrollbar{
+    width: 0;
+    color: transparent;
+}
+
